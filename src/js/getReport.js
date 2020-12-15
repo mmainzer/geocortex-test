@@ -6,7 +6,7 @@ export const getReportUrl = async (featureId, fips) => {
 	console.log(fips);
 	// const test = 'https://www.google.com/';
 	// window.open(test, '_blank');
-	let itemId = "84ffd6b1be0647588256e0bb1a1e9226";
+	let itemId = "https://georgiapowered.maps.arcgis.com/home/item.html?id=84ffd6b1be0647588256e0bb1a1e9226";
 
 	const url = await run(itemId, {
 		parameters: {
