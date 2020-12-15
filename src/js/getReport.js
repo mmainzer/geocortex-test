@@ -9,7 +9,6 @@ export const getReportUrl = async (featureId, fips) => {
 	let itemId = "84ffd6b1be0647588256e0bb1a1e9226";
 
 	const url = await run(itemId, {
-		portalUrl:"https://georgiapowered.maps.arcgis.com/home",
 		parameters: {
 			FeatureIds: [featureId],
 			CountyFipsCode: [fips],
