@@ -1,9 +1,0 @@
-After running npm, make this change in the bundle as a work-around for a geocrotex reporting bug
-
-The fix is a single line in the bundle.js file in the developer sdk:
-
-headers:{"Content-Type":"application/json",Authorization:i}};
-
-Becomes
-
-headers:{"Content-Type":"application/json"}};if(i){f.headers.Authorization=i};

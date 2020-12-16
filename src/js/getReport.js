@@ -14,7 +14,7 @@ export const getReportUrl = async (featureId, fips) => {
 			CountyFipsCode: [fips],
 			UserLogo:undefined,
 			GPCLogo1:undefined,
-			GPCLogo2:"https://services.selectgeorgia.com/data/logos/GeorgiaPowerVertical.png%22%7D"
+			GPCLogo2:"https://services.selectgeorgia.com/data/logos/GeorgiaPowerVertical.png"
 		}
 	});
 	console.log(url);
